@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1443659952 source:c:\users\jordan\documents\ucsp\circulo\main.cpp
+	"Circulo.h"
+	"Point.h"
+	<iostream>
+
+1443659961 c:\users\jordan\documents\ucsp\circulo\include\circulo.h
+	<iostream>
+	<math.h>
+	"Point.h"
+
+1443659952 c:\users\jordan\documents\ucsp\circulo\include\point.h
+
+1443659952 source:c:\users\jordan\documents\ucsp\circulo\src\circulo.cpp
+	"Circulo.h"
+
+1443660000 source:c:\users\jordan\documents\ucsp\circulo\src\point.cpp
+	"Point.h"
+
+1443659952 source:c:\users\jordan\documents\ipoo\proyectos\circulo\main.cpp
+	"Circulo.h"
+	"Point.h"
+	<iostream>
+
+1443659961 c:\users\jordan\documents\ipoo\proyectos\circulo\include\circulo.h
+	<iostream>
+	<math.h>
+	"Point.h"
+
+1443659952 c:\users\jordan\documents\ipoo\proyectos\circulo\include\point.h
+
+1443659952 source:c:\users\jordan\documents\ipoo\proyectos\circulo\src\circulo.cpp
+	"Circulo.h"
+
+1443660000 source:c:\users\jordan\documents\ipoo\proyectos\circulo\src\point.cpp
+	"Point.h"
+
