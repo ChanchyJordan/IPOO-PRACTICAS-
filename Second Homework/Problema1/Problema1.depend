@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1444233397 source:c:\users\jordan\documents\ipoo\tarea\second homework\problema1\src\vect.cpp
+	"Vect.h"
+	<math.h>
+	<iostream>
+	<stdlib.h>
+
+1444233655 c:\users\jordan\documents\ipoo\tarea\second homework\problema1\include\vect.h
+
+1444234350 source:c:\users\jordan\documents\ipoo\tarea\second homework\problema1\main.cpp
+	"Vect.h"
+	<iostream>
+
