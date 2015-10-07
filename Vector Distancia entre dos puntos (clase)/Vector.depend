@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1443705652 source:c:\users\jordan\documents\ipoo\proyectos\vector\src\point.cpp
+	"Point.h"
+	<iostream>
+
+1443705652 c:\users\jordan\documents\ipoo\proyectos\vector\include\point.h
+
+1443705779 source:c:\users\jordan\documents\ipoo\proyectos\vector\src\vector.cpp
+	"Vector.h"
+	<iostream>
+	<math.h>
+
+1443705392 c:\users\jordan\documents\ipoo\proyectos\vector\include\vector.h
+	"Point.h"
+
+1443704431 source:c:\users\jordan\documents\ipoo\proyectos\vector\main.cpp
+	"Vector.h"
+
