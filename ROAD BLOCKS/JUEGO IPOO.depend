@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1442942577 source:c:\users\jordan\documents\ucsp\juego ipoo\src\juego.cpp
+	"Juego.h"
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+
+1442942784 c:\users\jordan\documents\ucsp\juego ipoo\include\juego.h
+	<iostream>
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<string.h>
+
+1442876700 source:c:\users\jordan\documents\ucsp\juego ipoo\mainjuego.cpp
+	<iostream>
+	"Juego.h"
+
+1443038952 source:c:\users\jordan\documents\ucsp\road blocks\mainjuego.cpp
+	<iostream>
+	"Juego.h"
+
+1443038721 c:\users\jordan\documents\ucsp\road blocks\include\juego.h
+	<iostream>
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<string.h>
+
+1443404349 source:c:\users\jordan\documents\ucsp\road blocks\src\juego.cpp
+	"Juego.h"
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+
+1443038952 source:c:\users\jordan\documents\ipoo\proyectos\road blocks\mainjuego.cpp
+	<iostream>
+	"Juego.h"
+
+1443883884 c:\users\jordan\documents\ipoo\proyectos\road blocks\include\juego.h
+	<iostream>
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+
+1443883788 source:c:\users\jordan\documents\ipoo\proyectos\road blocks\src\juego.cpp
+	"Juego.h"
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+
