@@ -34,3 +34,21 @@
 	<iostream>
 	<math.h>
 
+1446078865 source:c:\users\jordan\documents\ipoo\proyectos\vector(constructor)\main.cpp
+	"Vector.h"
+	<iostream>
+
+1446121117 c:\users\jordan\documents\ipoo\proyectos\vector(constructor)\include\vector.h
+	"Point.h"
+
+1446078465 c:\users\jordan\documents\ipoo\proyectos\vector(constructor)\include\point.h
+
+1446078478 source:c:\users\jordan\documents\ipoo\proyectos\vector(constructor)\src\point.cpp
+	"Point.h"
+	<iostream>
+
+1446121171 source:c:\users\jordan\documents\ipoo\proyectos\vector(constructor)\src\vector.cpp
+	"Vector.h"
+	<iostream>
+	<math.h>
+

@@ -13,7 +13,7 @@ class Vector
         Point _start;
         Point _end;
 
-        //int TamanoVect();
+        int TamanoVect();
 };
 
 #endif // VECTOR_H
