@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1446116207 source:c:\users\jordan\documents\ipoo\tarea\vehiculo\main.cpp
+	"Vehiculo.h"
+	"Camioneta.h"
+	"Sedan.h"
+	"Deportivo.h"
+
+1446116346 c:\users\jordan\documents\ipoo\tarea\vehiculo\include\vehiculo.h
+
+1446116511 c:\users\jordan\documents\ipoo\tarea\vehiculo\include\camioneta.h
+	"Vehiculo.h"
+	<iostream>
+
+1446116807 c:\users\jordan\documents\ipoo\tarea\vehiculo\include\sedan.h
+	"Vehiculo.h"
+	"Vehiculo.h"
+	<iostream>
+
+1446116704 c:\users\jordan\documents\ipoo\tarea\vehiculo\include\deportivo.h
+	"Vehiculo.h"
+	<iostream>
+
+1446116807 source:c:\users\jordan\documents\ipoo\tarea\vehiculo\src\camioneta.cpp
+	"Camioneta.h"
+
+1446116807 source:c:\users\jordan\documents\ipoo\tarea\vehiculo\src\deportivo.cpp
+	"Deportivo.h"
+
+1446116807 source:c:\users\jordan\documents\ipoo\tarea\vehiculo\src\sedan.cpp
+	"Sedan.h"
+
+1446116843 source:c:\users\jordan\documents\ipoo\tarea\vehiculo\src\vehiculo.cpp
+	"Vehiculo.h"
+

@@ -2,7 +2,7 @@
 
 using namespace std;
 
-string no_repetitions(char *letra);
+string no_repetitions(char* letra);
 
 int main(){
     string frase;
@@ -15,7 +15,7 @@ int main(){
     return 0;
 }
 
-string no_repetitions(char *letra){
+string no_repetitions(char* letra){
     char vect[20];
     short int i;
     while(*letra){
@@ -23,7 +23,7 @@ string no_repetitions(char *letra){
         i++;
     }
     for(int j=0;j<20;j++){
-        for(int k=j;j<20;k++){
+        for(short int k=j+1;j<20;k++){
 
         }
     }
