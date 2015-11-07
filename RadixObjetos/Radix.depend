@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1446677800 source:c:\users\jordan\documents\ipoo\tarea\radix\src\radix.cpp
+	"Radix.h"
+
+1446677875 
+
+1446677840 c:\users\jordan\documents\ipoo\tarea\radix\include\radix.h
+	<vector>
+	<string>
+	<iostream>
+	<stdexcept>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1446677875 source:c:\users\jordan\documents\ipoo\tarea\radix\main.cpp
+	"Radix.h"
+
+1446816649 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Radix(Objetos no terminado)/main.cpp
+	"Radix.h"
+
+1446830445 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Radix(Objetos no terminado)/include/Radix.h
+	<vector>
+	<string>
+	<iostream>
+	<stdexcept>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1446819178 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Radix(Objetos no terminado)/src/Radix.cpp
+	"Radix.h"
+
+1446816649 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/RadixObjetos/main.cpp
+	"Radix.h"
+
+1446861884 /home/jordan/Documentos/UCSP/IPOO/Proyectos/RadixObjetos/include/Radix.h
+	<vector>
+	<string>
+	<iostream>
+	<stdexcept>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1446863752 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/RadixObjetos/src/Radix.cpp
+	"Radix.h"
+
