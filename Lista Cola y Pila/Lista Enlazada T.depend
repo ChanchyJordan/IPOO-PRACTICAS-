@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1447702762 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Enlazada T/main.cpp
+	"Lista.h"
+
+1447714490 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Enlazada T/include/Lista.h
+	"Nodo.h"
+
+1447702709 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Enlazada T/include/Nodo.h
+	<iostream>
+
+1447702710 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Enlazada T/src/Nodo.cpp
+	"Nodo.h"
+
+1447720438 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Enlazada T/src/Lista.cpp
+	"Lista.h"
+	"Nodo.h"
+

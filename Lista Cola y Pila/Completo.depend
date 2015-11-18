@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1447769047 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Cola y PIla/main.cpp
+	"Lista.h"
+	"Stack.h"
+
+1447768026 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Cola y PIla/include/Lista.h
+	"Nodo.h"
+
+1447702709 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Cola y PIla/include/Nodo.h
+	<iostream>
+
+1447726966 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Cola y PIla/src/Nodo.cpp
+	"Nodo.h"
+
+1447769826 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Cola y PIla/include/Stack.h
+	"Nodo.h"
+
+1447768026 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Cola y PIla/src/Lista.cpp
+	"Lista.h"
+	"Nodo.h"
+
+1447771620 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Cola y PIla/src/Stack.cpp
+	"Stack.h"
+
+1447771621 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Cola y PIla/src/Queue.cpp
+	"Queue.h"
+
+1447770932 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Cola y PIla/include/Queue.h
+	"Nodo.h"
+
