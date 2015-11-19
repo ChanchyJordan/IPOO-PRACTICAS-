@@ -1,0 +1,103 @@
+# depslib dependency file v1.0
+1447769047 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Cola y PIla/main.cpp
+	"Lista.h"
+	"Stack.h"
+
+1447768026 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Cola y PIla/include/Lista.h
+	"Nodo.h"
+
+1447702709 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Cola y PIla/include/Nodo.h
+	<iostream>
+
+1447726966 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Cola y PIla/src/Nodo.cpp
+	"Nodo.h"
+
+1447769826 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Cola y PIla/include/Stack.h
+	"Nodo.h"
+
+1447768026 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Cola y PIla/src/Lista.cpp
+	"Lista.h"
+	"Nodo.h"
+
+1447771620 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Cola y PIla/src/Stack.cpp
+	"Stack.h"
+
+1447771621 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Cola y PIla/src/Queue.cpp
+	"Queue.h"
+
+1447770932 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Lista Cola y PIla/include/Queue.h
+	"Nodo.h"
+
+1447930199 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Lista Cola y Pila/main.cpp
+	"Nodo.h"
+	"Lista.h"
+	"Stack.h"
+	"Queue.h"
+
+1447935242 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Lista Cola y Pila/include/Lista.h
+	"Nodo.h"
+	"Queue.h"
+	"Stack.h"
+	"Queue.h"
+
+1447891453 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Lista Cola y Pila/include/Nodo.h
+	<iostream>
+
+1447891908 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Lista Cola y Pila/include/Stack.h
+	"Nodo.h"
+	"Queue.h"
+	"Lista.h"
+
+1447935297 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Lista Cola y Pila/include/Queue.h
+	"Nodo.h"
+	"Lista.h"
+	"Stack.h"
+
+1447930262 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Lista Cola y Pila/src/Lista.cpp
+	"Lista.h"
+
+1447891453 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Lista Cola y Pila/src/Nodo.cpp
+	"Nodo.h"
+
+1447929672 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Lista Cola y Pila/src/Queue.cpp
+	"Queue.h"
+
+1447929810 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Lista Cola y Pila/src/Stack.cpp
+	"Stack.h"
+
+1447935402 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Lista Cola y Pila Template/main.cpp
+	"Nodo.h"
+	"Lista.h"
+	"Stack.h"
+	"Queue.h"
+
+1447891453 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Lista Cola y Pila Template/include/Nodo.h
+	<iostream>
+
+1447935775 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Lista Cola y Pila Template/include/Lista.h
+	"Nodo.h"
+	"Queue.h"
+	"Stack.h"
+
+1447935297 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Lista Cola y Pila Template/include/Queue.h
+	"Nodo.h"
+	"Lista.h"
+	"Stack.h"
+
+1447891908 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Lista Cola y Pila Template/include/Stack.h
+	"Nodo.h"
+	"Queue.h"
+	"Lista.h"
+
+1447935775 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Lista Cola y Pila Template/src/Lista.cpp
+	"Lista.h"
+
+1447891453 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Lista Cola y Pila Template/src/Nodo.cpp
+	"Nodo.h"
+
+1447929672 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Lista Cola y Pila Template/src/Queue.cpp
+	"Queue.h"
+
+1447929810 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Lista Cola y Pila Template/src/Stack.cpp
+	"Stack.h"
+
