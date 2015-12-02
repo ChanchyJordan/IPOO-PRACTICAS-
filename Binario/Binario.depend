@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1448377050 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Binario/src/Node.cpp
+	"Node.h"
+
+1449070800 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Binario/include/Node.h
+	<iostream>
+
+1449095282 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Binario/main.cpp
+	"Node.h"
+	"Tree.h"
+	<iostream>
+
+1449095282 source:/home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Binario/src/Tree.cpp
+	"Tree.h"
+
+1449094982 /home/jordan/Documentos/UCSP/IPOO/Proyectos/Pruebas/Binario/include/Tree.h
+	"Node.h"
+
