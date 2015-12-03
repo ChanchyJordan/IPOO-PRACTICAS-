@@ -46,12 +46,11 @@ void Tree<Tipo>::_initializer(){
         std::cin>>alternativa;
         switch (alternativa){
             case 1:
-                /*
                 std::cout<<" Ingrese el numero : ";
                 std::cin>>dato;
                 std::cout<<std::endl;
-                _add(dato);*/
-                _add(5);
+                _add(dato);
+                /*_add(5);
                 _add(15);
                 _add(2);
                 _add(7);
@@ -61,7 +60,7 @@ void Tree<Tipo>::_initializer(){
                 _add(6);
                 _add(11);
                 _add(14);
-                _add(17);
+                _add(17);*/
                 break;
             case 2:
                 std::cout<<" Ingrese el numero : ";
@@ -182,9 +181,23 @@ void Tree<Tipo>::_print_post_orden() //IZQUIERDA - DERECHA - RAIZ
 
 template <class Tipo>
 
-void Tree<Tipo>::_balance()
+void Tree<Tipo>::_balance(Node<Tipo>* tmp)
 {
-    std::cout<<" NO DISPONIBLE :c "<<std::endl;
+    if(1>=tmp->_value_left-tmp->_value_right>=-1){
+        Node<Tipo>* tmp2;
+        if(tmp->_value_left>tmp->_value_right){
+            tmp2=tmp->right;
+            tmp->left=tmp->right->right;
+            tmp->left->left=tmp2;
+        }
+        else{
+            tmp2=tmp->_right;
+            tmp->right=tmp->right->left;
+            tmp->right=tmp2;
+
+        }
+    }
+
 }
 
 //---------------- F U N C I O N E S   A U X I L I A R E S -------
@@ -202,6 +215,7 @@ short int Tree<Tipo>::recorrer(Node<Tipo>* tmp,int* dato){ //ADD
         else
             tmp->_value_left=recorrer(tmp->_left,dato); //$$$$$
             tmp->_value_left++;
+            balance(tmp);
             if(tmp->_value_left > tmp->_value_right){
                 return tmp->_value_left;
             }
@@ -218,6 +232,7 @@ short int Tree<Tipo>::recorrer(Node<Tipo>* tmp,int* dato){ //ADD
         else
             tmp->_value_right=recorrer(tmp->_right,dato); //******
             tmp->_value_right++;
+            balance(tmp);
             if(tmp->_value_left > tmp->_value_right)
                 return tmp->_value_left;
             else
