@@ -13,7 +13,7 @@ class Tree
         void _initializer();
         void _add(Tipo dato);
         void _delete_element(Tipo dato);
-        void _balance();
+        void _balance(Node<Tipo>* tmp);
         void _print_pre_orden();//Raiz Izquierda Derecha
         void _print_in_orden(); //Izquierda Raiz Derecha
         void _print_post_orden(); //Izquierda Derecha Raiz
@@ -31,7 +31,7 @@ class Tree
         void recorrer(Node<Tipo>* tmp,char l); //PRE-ORDEN
         void recorrer(Node<Tipo>* tmp);//IN-ORDEN
         void recorrer(Node<Tipo>* tmp,bool v);//DESTRCUTOR
-
+        //Node<Tipo>* recorrer(Node<Tipo>* tmp);
     //friend class Node
 };
 

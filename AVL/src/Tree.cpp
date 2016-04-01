@@ -186,14 +186,14 @@ void Tree<Tipo>::_balance(Node<Tipo>* tmp)
     if(1>=tmp->_value_left-tmp->_value_right>=-1){
         Node<Tipo>* tmp2;
         if(tmp->_value_left>tmp->_value_right){
-            tmp2=tmp->right;
-            tmp->left=tmp->right->right;
-            tmp->left->left=tmp2;
+            tmp2=tmp->_right;
+            tmp->_left=tmp->_right->_right;
+            tmp->_left->_left=tmp2;
         }
         else{
             tmp2=tmp->_right;
-            tmp->right=tmp->right->left;
-            tmp->right=tmp2;
+            tmp->_right=tmp->_right->_left;
+            tmp->_right=tmp2;
 
         }
     }
