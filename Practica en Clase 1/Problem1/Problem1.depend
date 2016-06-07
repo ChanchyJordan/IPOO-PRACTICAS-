@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1465293230 source:c:\users\jordan\documents\github\ipoo-practicas-\practica en clase 1\problem1\src\departamento.cpp
+	"Departamento.h"
+
+1465295858 c:\users\jordan\documents\github\ipoo-practicas-\practica en clase 1\problem1\include\departamento.h
+	"Funcionario.h"
+
+1465295171 c:\users\jordan\documents\github\ipoo-practicas-\practica en clase 1\problem1\include\funcionario.h
+	<iostream>
+	"Empresa.h"
+
+1465295973 c:\users\jordan\documents\github\ipoo-practicas-\practica en clase 1\problem1\include\empresa.h
+	"Funcionario.h"
+	"Departamento.h"
+
+1465293178 source:c:\users\jordan\documents\github\ipoo-practicas-\practica en clase 1\problem1\src\empresa.cpp
+	"Empresa.h"
+
+1465293069 source:c:\users\jordan\documents\github\ipoo-practicas-\practica en clase 1\problem1\src\funcionario.cpp
+	"Funcionario.h"
+
+1465293328 source:c:\users\jordan\documents\github\ipoo-practicas-\practica en clase 1\problem1\main.cpp
+	"Empresa.h"
+

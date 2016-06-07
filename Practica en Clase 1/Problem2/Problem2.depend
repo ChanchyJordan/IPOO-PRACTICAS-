@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1465307127 source:c:\users\jordan\documents\github\ipoo-practicas-\practica en clase 1\problem2\src\raton.cpp
+	"Raton.h"
+
+1465307679 c:\users\jordan\documents\github\ipoo-practicas-\practica en clase 1\problem2\include\raton.h
+	"Raton.h"
+	"ArdillaVoladora.h"
+	"Jerbo.h"
+
+1465306836 c:\users\jordan\documents\github\ipoo-practicas-\practica en clase 1\problem2\include\roedores.h
+	<iostream>
+
+1465306826 source:c:\users\jordan\documents\github\ipoo-practicas-\practica en clase 1\problem2\src\roedores.cpp
+	"Roedores.h"
+
+1465306806 source:c:\users\jordan\documents\github\ipoo-practicas-\practica en clase 1\problem2\main.cpp
+	"Roedores.h"
+	"Raton.h"
+	"ArdillaVoladora.h"
+	"Jerbo.h"
+
+1465307301 c:\users\jordan\documents\github\ipoo-practicas-\practica en clase 1\problem2\include\ardillavoladora.h
+	"Roedores.h"
+
+1465307679 c:\users\jordan\documents\github\ipoo-practicas-\practica en clase 1\problem2\include\jerbo.h
+	"Roedores.h"
+
+1465307303 source:c:\users\jordan\documents\github\ipoo-practicas-\practica en clase 1\problem2\src\ardillavoladora.cpp
+	"ArdillaVoladora.h"
+
+1465306635 source:c:\users\jordan\documents\github\ipoo-practicas-\practica en clase 1\problem2\src\jerbo.cpp
+	"Jerbo.h"
+
