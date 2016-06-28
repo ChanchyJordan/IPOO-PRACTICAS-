@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1467126592 source:c:\users\jordan\desktop\proyecto\bomberman-2\main.cpp
+	"BGame.h"
+
+1467128638 c:\users\jordan\desktop\proyecto\bomberman-2\include\bgame.h
+	<conio.h>
+	<stdlib.h>
+	"BMap.h"
+
+1467127176 source:c:\users\jordan\desktop\proyecto\bomberman-2\src\beasymap.cpp
+	"BEasyMap.h"
+
+1467127536 c:\users\jordan\desktop\proyecto\bomberman-2\include\beasymap.h
+	"BMap.h"
+
+1467127078 c:\users\jordan\desktop\proyecto\bomberman-2\include\bmap.h
+	<vector>
+	<iostream>
+	"BGame.h"
+
+1467127454 source:c:\users\jordan\desktop\proyecto\bomberman-2\src\bgame.cpp
+	"BGame.h"
+
+1467127057 source:c:\users\jordan\desktop\proyecto\bomberman-2\src\bmap.cpp
+	"BMap.h"
+
