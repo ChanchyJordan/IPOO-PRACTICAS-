@@ -1,9 +1,5 @@
 #include "BMap.h"
 
-void BMap::movement(){
-
-}
-
 int BMap::initMap(){
     buildMapEdge();
     buildMap();
@@ -14,22 +10,27 @@ int BMap::initMap(){
 }
 
 void BMap::buildMapEdge(){
-    for(unsigned i=1;i<matrix.size()-1;i++)
-        matrix[i][0]=matrix[i][11]='|';
+    unsigned value=matrix.size();
+    for(unsigned i=1;i<value-1;i++)
+        matrix[i][0]=matrix[i][value-1]='|';
 
-    for(unsigned i=0;i<matrix.size();i++)
-        matrix[0][i]=matrix[11][i]='-';
+    for(unsigned i=0;i<value;i++)
+        matrix[0][i]=matrix[value-1][i]='-';
 
 }
 
 void BMap::printMap(){
-
-    for(unsigned i=0;i<matrix.size();i++){
-        cout<<"            ";
-        for(unsigned j=0;j<matrix.size();j++){
+    unsigned value=matrix.size();
+    for(unsigned i=0;i<value;i++){
+        cout<<"                  ";
+        for(unsigned j=0;j<value;j++){
             cout<<" "<<matrix[i][j];
         }
 
         cout<<endl;
     }
+}
+
+void BMap::movement(){
+
 }

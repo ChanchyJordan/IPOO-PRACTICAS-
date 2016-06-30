@@ -11,16 +11,15 @@ using namespace std;
 class BMap
 {
     public:
-        BMap():matrix(20,vector<char> (20,' ')){}
-        ;
+        BMap():matrix(22,vector<char> (22,' ')){};
 
         int initMap();
-        virtual void printMap();
-        void buildMapEdge();
+        void buildMapEdge();  //CONTRUYE LOS BORDES
+        virtual void printMap();  //IMPRIMIR
 
-        virtual void buildMap()=0;
-        virtual void buildWallsMap()=0;
-        void movement();
+        virtual void buildMap()=0;  //CONSTRUYE MUROS INDESTRUCTIBLES
+        virtual void buildWallsMap()=0;  //CONTRUYE MUROS DESTRUCTIBLES
+        void movement();  //FUNCION PARA EL MOVIMIENTO
 
     protected:
         vector < vector<char> > matrix ;

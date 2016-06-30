@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1467126592 source:c:\users\jordan\desktop\proyecto\bomberman-2\main.cpp
+1467128692 source:c:\users\jordan\desktop\proyecto\bomberman-2\main.cpp
 	"BGame.h"
 
 1467128638 c:\users\jordan\desktop\proyecto\bomberman-2\include\bgame.h
@@ -23,4 +23,76 @@
 
 1467127057 source:c:\users\jordan\desktop\proyecto\bomberman-2\src\bmap.cpp
 	"BMap.h"
+
+1467241951 source:c:\users\jordan\documents\github\ipoo-practicas-\bomberman-2\main.cpp
+	"BGame.h"
+
+1467251178 c:\users\jordan\documents\github\ipoo-practicas-\bomberman-2\include\bgame.h
+	<conio.h>
+	<stdlib.h>
+	"BMap.h"
+	"BMan.h"
+
+1467242204 c:\users\jordan\documents\github\ipoo-practicas-\bomberman-2\include\bmap.h
+	<vector>
+	<iostream>
+	"BGame.h"
+
+1467247319 source:c:\users\jordan\documents\github\ipoo-practicas-\bomberman-2\src\beasymap.cpp
+	"BEasyMap.h"
+
+1467241735 c:\users\jordan\documents\github\ipoo-practicas-\bomberman-2\include\beasymap.h
+	"BMap.h"
+	"BGame.h"
+
+1467249640 source:c:\users\jordan\documents\github\ipoo-practicas-\bomberman-2\src\bgame.cpp
+	"BGame.h"
+	"BEasyMap.h"
+
+1467247502 source:c:\users\jordan\documents\github\ipoo-practicas-\bomberman-2\src\bmap.cpp
+	"BMap.h"
+
+1467241951 source:c:\users\jordan\desktop\proyecto\bomberman pruebas\main.cpp
+	"BGame.h"
+
+1467251178 c:\users\jordan\desktop\proyecto\bomberman pruebas\include\bgame.h
+	<conio.h>
+	<stdlib.h>
+	"BMap.h"
+	"BMan.h"
+
+1467242204 c:\users\jordan\desktop\proyecto\bomberman pruebas\include\bmap.h
+	<vector>
+	<iostream>
+	"BGame.h"
+
+1467241735 c:\users\jordan\desktop\proyecto\bomberman pruebas\include\beasymap.h
+	"BMap.h"
+	"BGame.h"
+
+1467247319 source:c:\users\jordan\desktop\proyecto\bomberman pruebas\src\beasymap.cpp
+	"BEasyMap.h"
+
+1467249640 source:c:\users\jordan\desktop\proyecto\bomberman pruebas\src\bgame.cpp
+	"BGame.h"
+	"BEasyMap.h"
+
+1467247502 source:c:\users\jordan\desktop\proyecto\bomberman pruebas\src\bmap.cpp
+	"BMap.h"
+
+1467251178 c:\users\jordan\desktop\proyecto\bomberman pruebas\include\bman.h
+	"BPerson.h"
+
+1467251040 c:\users\jordan\desktop\proyecto\bomberman pruebas\include\bperson.h
+
+1467251178 c:\users\jordan\documents\github\ipoo-practicas-\bomberman-2\include\bman.h
+	"BPerson.h"
+
+1467251040 c:\users\jordan\documents\github\ipoo-practicas-\bomberman-2\include\bperson.h
+
+1467251178 source:c:\users\jordan\documents\github\ipoo-practicas-\bomberman-2\src\bman.cpp
+	"BMan.h"
+
+1467251037 source:c:\users\jordan\documents\github\ipoo-practicas-\bomberman-2\src\bperson.cpp
+	"BPerson.h"
 

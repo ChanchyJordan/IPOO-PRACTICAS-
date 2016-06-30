@@ -5,6 +5,8 @@
 #include <stdlib.h>
 
 #include "BMap.h"
+//#include "BEasyMap.h"
+#include "BMan.h"
 
 #define KEY_UP 72 + 256
 #define KEY_DOWN 80 + 256
@@ -20,7 +22,7 @@ class BGame
         void initGame();
 
     private:
-        //EasyMap maps;
+        BMan bomberman;
 
 
 
