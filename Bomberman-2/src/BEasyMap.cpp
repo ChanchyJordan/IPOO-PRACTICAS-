@@ -24,7 +24,7 @@ void BEasyMap::buildMap(){ //MUROS INDESTRUCTIBLES
 }
 
 void BEasyMap::buildWallsMap(){  //CONTRUYE MUROS DESTRUCTIBLES
-    matrix[1][3]=matrix[1][5]=matrix[1][8]=matrix[1][10]=matrix[2][3]=matrix[2][10]=matrix[2][13]=matrix[2][16]
+    /*matrix[1][3]=matrix[1][5]=matrix[1][8]=matrix[1][10]=matrix[2][3]=matrix[2][10]=matrix[2][13]=matrix[2][16]
     =matrix[3][1]=matrix[3][5]=matrix[3][9]=matrix[3][16]=matrix[4][1]=matrix[4][8]=matrix[4][10]=matrix[4][18]
     =matrix[5][11]=matrix[5][14]=matrix[5][17]=matrix[6][1]=matrix[6][7]=matrix[7][2]=matrix[7][3]=matrix[7][5]
     =matrix[7][9]=matrix[7][15]=matrix[7][16]=matrix[8][6]=matrix[8][18]=matrix[7][16]=matrix[9][4]=matrix[9][8]
@@ -33,6 +33,6 @@ void BEasyMap::buildWallsMap(){  //CONTRUYE MUROS DESTRUCTIBLES
     =matrix[13][2]=matrix[13][4]=matrix[13][5]=matrix[13][15]=matrix[13][17]=matrix[14][4]=matrix[15][7]
     =matrix[15][13]=matrix[15][7]=matrix[15][16]=matrix[15][18]=matrix[16][5]=matrix[16][8]=matrix[17][17]
     =matrix[18][1]=matrix[18][4]=matrix[18][7]=matrix[18][14]=matrix[20][10]=matrix[20][16]='*';
-
+*/
 }
 

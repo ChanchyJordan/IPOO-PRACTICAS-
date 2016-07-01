@@ -2,6 +2,6 @@
 
 BMan::BMan()
 {
-    //ctor
+
 }
 

@@ -9,6 +9,9 @@ class BMan:public BPerson
         BMan();
 
     private:
+        //int live;
+
+
 };
 
 #endif // BMAN_H

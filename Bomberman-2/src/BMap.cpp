@@ -17,6 +17,8 @@ void BMap::buildMapEdge(){
     for(unsigned i=0;i<value;i++)
         matrix[0][i]=matrix[value-1][i]='-';
 
+    matrix[1][1]='^';
+
 }
 
 void BMap::printMap(){
@@ -30,7 +32,7 @@ void BMap::printMap(){
         cout<<endl;
     }
 }
-
+/*
 void BMap::movement(){
 
-}
+}*/

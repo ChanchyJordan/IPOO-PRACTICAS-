@@ -19,12 +19,15 @@ class BMap
 
         virtual void buildMap()=0;  //CONSTRUYE MUROS INDESTRUCTIBLES
         virtual void buildWallsMap()=0;  //CONTRUYE MUROS DESTRUCTIBLES
-        void movement();  //FUNCION PARA EL MOVIMIENTO
+        //void movement();  //FUNCION PARA EL MOVIMIENTO
+
+        friend class BGame;
+
 
     protected:
         vector < vector<char> > matrix ;
 
-        friend class Game;
+        //friend class Game;
 
 };
 #endif // BMAP_H

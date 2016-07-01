@@ -8,30 +8,105 @@ BGame::BGame()
 
 void BGame::initGame(){
     BEasyMap e_map;
+
     bool validate=1;
-    short int tecla;
+    int tecla;
+    int returns;
     while (validate){
         tecla=getch();
         if (tecla==0||tecla==224)
             tecla=256+getch();
 
-         switch (tecla){
+
+        switch (tecla){
             case KEY_UP://ARRIBA
-                std::cout<<" ARRIBA "<<std::endl;
+                returns=bomberman.changePosition(1,e_map.matrix);
+                if(returns==1){
+                    e_map.matrix[bomberman.getX()+1][bomberman.getY()]=' ';
+                    e_map.matrix[bomberman.getX()][bomberman.getY()]='^';
+                    e_map.printMap();
+                }
+                else if(returns==0){
+                    validate=0;
+                    gameOver();
+
+                }
+                //e_map.printMap();
                 break;
 
             case KEY_DOWN://ABAJO
-                std::cout<<" ABAJO "<<std::endl;
+                returns=bomberman.changePosition(2,e_map.matrix);
+                if(returns==1){
+                    e_map.matrix[bomberman.getX()-1][bomberman.getY()]=' ';
+                    e_map.matrix[bomberman.getX()][bomberman.getY()]='^';
+                    e_map.printMap();
+                }
+                else if(returns==0){
+                    validate=0;
+                    gameOver();
+                }
+
                 break;
 
             case KEY_RIGHT://DERECHA
-                std::cout<<" DERECHA "<<std::endl;
+                returns=bomberman.changePosition(3,e_map.matrix);
+                if(returns==1){
+                    e_map.matrix[bomberman.getX()][bomberman.getY()-1]=' ';
+                    e_map.matrix[bomberman.getX()][bomberman.getY()]='^';
+                    e_map.printMap();
+                }
+                else if(returns==0){
+                    validate=0;
+                    gameOver();
+                }
+
                 break;
 
             case KEY_LEFT://IZQUIERDA
-                std::cout<<" IZQUIERDA  "<<std::endl;
+                returns=bomberman.changePosition(4,e_map.matrix);
+                if(returns==1){
+                    e_map.matrix[bomberman.getX()][bomberman.getY()+1]=' ';
+                    e_map.matrix[bomberman.getX()][bomberman.getY()]='^';
+                    e_map.printMap();
+                }
+                else if(returns==0){
+                    validate=0;
+                    gameOver();
+                }
+
+                break;
+            default:
+                validate=0;
                 break;
         }
         //system("cls");
     }
+}
+
+void BGame::gameOver(){
+    cout<<endl<<endl<<endl
+    <<"            ************    *****    ***        ***  **********"<<endl
+    <<"            ************  ********   ****      ****  **********"<<endl
+    <<"            **            **     **  ** **    ** **  **        "<<endl
+    <<"            **            **     **  **  **  **  **  **        "<<endl
+    <<"            **    ******  *********  **   ****   **  ********* "<<endl
+    <<"            **    ******  *********  **    **    **  ********* "<<endl
+    <<"            **        **  **     **  **          **  **        "<<endl
+    <<"            **        **  **     **  **          **  **        "<<endl
+    <<"            ************  **     **  **          **  **********"<<endl
+    <<"            ************  **     **  **          **  **********"<<endl<<endl
+
+    <<"            ************  **      **  ************  *********  "<<endl
+    <<"            ************  **      **  ************  ********** "<<endl
+    <<"            **        **  **      **  **            **      ** "<<endl
+    <<"            **        **  **      **  **            **      ** "<<endl
+    <<"            **        **  **      **  **********    *********  "<<endl
+    <<"            **        **  **      **  **********    *******    "<<endl
+    <<"            **        **   **    **   **            **   **    "<<endl
+    <<"            **        **    **  **    **            **    **   "<<endl
+    <<"            ************     ****     ************  **     **  "<<endl
+    <<"            ************      **      ************  **      ** "<<endl;
+
+
+
 }
