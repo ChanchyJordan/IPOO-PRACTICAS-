@@ -8,10 +8,13 @@ BGame::BGame()
 
 void BGame::initGame(){
     BEasyMap e_map;
-
+    BBomb bomb;
     bool validate=1;
     int tecla;
     int returns;
+    bool aux=0;
+    int contBomb=0;
+
     while (validate){
         tecla=getch();
         if (tecla==0||tecla==224)
@@ -75,10 +78,22 @@ void BGame::initGame(){
                 }
 
                 break;
+            case 32:
+                if(bomb.getState()==0){
+                    cout << "Has pulsado la barra espaciadora 1\n";
+                    bomb.placeBomb(bomberman.getX(),bomberman.getY());
+                    cout << "Has pulsado la barra espaciadora 2\n";
+                }
+                break;
+
             default:
-                validate=0;
+
                 break;
         }
+        if(bomb.getState()==1){
+            bomb.placeBomb(&contBomb);
+        }
+
         //system("cls");
     }
 }

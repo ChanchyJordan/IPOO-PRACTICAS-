@@ -33,12 +33,14 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="include/BBomb.h" />
 		<Unit filename="include/BEasyMap.h" />
 		<Unit filename="include/BGame.h" />
 		<Unit filename="include/BMan.h" />
 		<Unit filename="include/BMap.h" />
 		<Unit filename="include/BPerson.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/BBomb.cpp" />
 		<Unit filename="src/BEasyMap.cpp" />
 		<Unit filename="src/BGame.cpp" />
 		<Unit filename="src/BMan.cpp" />

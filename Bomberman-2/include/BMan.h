@@ -2,11 +2,15 @@
 #define BMAN_H
 
 #include "BPerson.h"
+#include "BBomb.h"
+#include <windows.h>
 
 class BMan:public BPerson
 {
     public:
         BMan();
+
+        //bool placeBomb();
 
     private:
         //int live;

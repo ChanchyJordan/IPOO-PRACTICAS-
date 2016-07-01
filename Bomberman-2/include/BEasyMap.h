@@ -2,7 +2,7 @@
 #define BEASYMAP_H
 
 #include "BMap.h"
-#include "BGame.h"
+//#include "BGame.h"
 
 class BEasyMap:public BMap{
     public:

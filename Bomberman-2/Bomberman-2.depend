@@ -106,3 +106,54 @@
 1467339440 source:c:\users\jordan\desktop\proyecto\bomberman-2\src\bperson.cpp
 	"BPerson.h"
 
+1467241951 source:c:\users\jordan\desktop\proyecto\bomberman-2.1\main.cpp
+	"BGame.h"
+
+1467375086 c:\users\jordan\desktop\proyecto\bomberman-2.1\include\bgame.h
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	"BMap.h"
+	"BMan.h"
+	"BBomb.h"
+
+1467336075 c:\users\jordan\desktop\proyecto\bomberman-2.1\include\bmap.h
+	<vector>
+	<iostream>
+	"BGame.h"
+
+1467376272 c:\users\jordan\desktop\proyecto\bomberman-2.1\include\bman.h
+	"BPerson.h"
+	"BBomb.h"
+	<windows.h>
+
+1467334630 c:\users\jordan\desktop\proyecto\bomberman-2.1\include\bperson.h
+	<vector>
+	<iostream>
+
+1467339314 source:c:\users\jordan\desktop\proyecto\bomberman-2.1\src\beasymap.cpp
+	"BEasyMap.h"
+
+1467376498 c:\users\jordan\desktop\proyecto\bomberman-2.1\include\beasymap.h
+	"BMap.h"
+
+1467380728 source:c:\users\jordan\desktop\proyecto\bomberman-2.1\src\bgame.cpp
+	"BGame.h"
+	"BEasyMap.h"
+
+1467375787 source:c:\users\jordan\desktop\proyecto\bomberman-2.1\src\bman.cpp
+	"BMan.h"
+
+1467338119 source:c:\users\jordan\desktop\proyecto\bomberman-2.1\src\bmap.cpp
+	"BMap.h"
+
+1467339440 source:c:\users\jordan\desktop\proyecto\bomberman-2.1\src\bperson.cpp
+	"BPerson.h"
+
+1467380425 source:c:\users\jordan\desktop\proyecto\bomberman-2.1\src\bbomb.cpp
+	"BBomb.h"
+
+1467375724 c:\users\jordan\desktop\proyecto\bomberman-2.1\include\bbomb.h
+	<windows.h>
+	<iostream>
+

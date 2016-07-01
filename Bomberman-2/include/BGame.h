@@ -3,9 +3,11 @@
 
 #include <conio.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 #include "BMap.h"
 #include "BMan.h"
+#include "BBomb.h"
 
 #define KEY_UP 72 + 256
 #define KEY_DOWN 80 + 256
@@ -19,12 +21,15 @@ class BGame
         BGame();
 
         void initGame();
-        void positionMan(int,int);
+        //void positionMan(int,int);
 
+        void welcome();
         void gameOver();
 
     private:
         BMan bomberman;
+
+        int getKeyboard();
 
 
 
