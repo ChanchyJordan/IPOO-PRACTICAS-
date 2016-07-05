@@ -6,7 +6,7 @@
 class BDemon:BPerson
 {
     public:
-        BDemon();
+        BDemon(int,int);
         int checkMovement(int,int,vector< vector<char> >);
 
 

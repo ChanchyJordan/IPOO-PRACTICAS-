@@ -4,6 +4,7 @@ int BMap::initMap(){
     buildMapEdge();
     buildMap();
     buildWallsMap();
+    putDemons();
     printMap();
 
     return 0;
@@ -22,6 +23,8 @@ void BMap::buildMapEdge(){
 }
 
 void BMap::printMap(){
+     system("cls");
+     system("color 80");
     unsigned value=matrix.size();
     for(unsigned i=0;i<value;i++){
         cout<<"                  ";
@@ -32,7 +35,3 @@ void BMap::printMap(){
         cout<<endl;
     }
 }
-/*
-void BMap::movement(){
-
-}*/

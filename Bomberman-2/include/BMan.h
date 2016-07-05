@@ -9,8 +9,7 @@ class BMan:public BPerson
 {
     public:
         BMan();
-
-        //bool placeBomb();
+        int checkMovement(int,int,vector< vector<char> >);
 
     private:
         //int live;

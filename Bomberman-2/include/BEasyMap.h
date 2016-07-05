@@ -9,7 +9,7 @@ class BEasyMap:public BMap{
         BEasyMap();
         void buildMap();  //MUROS INDESTRUCTIBLES
         void buildWallsMap();  //CONTRUYE MUROS DESTRUCTIBLES
-
+        void putDemons();
 };
 
 #endif // BEASYMAP_H

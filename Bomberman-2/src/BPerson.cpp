@@ -2,7 +2,7 @@
 
 BPerson::BPerson()
 {
-    positionX=positionY=1;
+    //positionX=positionY=1;
 
 }
 
@@ -56,7 +56,7 @@ int BPerson::changePosition(int direction,vector< vector<char> >matrix){
     }
     return 0;
 }
-
+/*
 int BPerson::checkMovement(int positionX,int positionY,vector< vector<char> >matrix)
 {
     if(matrix[positionX][positionY]==' ') //PUEDE AVANZAR
@@ -66,4 +66,4 @@ int BPerson::checkMovement(int positionX,int positionY,vector< vector<char> >mat
         return 0;
 
     return 2;  //SI HAY CUALQUIER OTRA COSA COMO LOS MUROS
-}
+}*/

@@ -5,6 +5,7 @@
 #include <iostream>
 
 #include "BGame.h"
+#include "BDemon.h"
 
 using namespace std;
 
@@ -19,13 +20,14 @@ class BMap
 
         virtual void buildMap()=0;  //CONSTRUYE MUROS INDESTRUCTIBLES
         virtual void buildWallsMap()=0;  //CONTRUYE MUROS DESTRUCTIBLES
-        //void movement();  //FUNCION PARA EL MOVIMIENTO
+        virtual void putDemons()=0;
 
         friend class BGame;
 
 
     protected:
         vector < vector<char> > matrix ;
+        vector <BDemon> listDemon;
 
         //friend class Game;
 

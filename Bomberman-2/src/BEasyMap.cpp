@@ -24,7 +24,8 @@ void BEasyMap::buildMap(){ //MUROS INDESTRUCTIBLES
 }
 
 void BEasyMap::buildWallsMap(){  //CONTRUYE MUROS DESTRUCTIBLES
-    /*matrix[1][3]=matrix[1][5]=matrix[1][8]=matrix[1][10]=matrix[2][3]=matrix[2][10]=matrix[2][13]=matrix[2][16]
+
+    matrix[1][8]=matrix[1][10]=matrix[2][3]=matrix[2][10]=matrix[2][13]=matrix[2][16]
     =matrix[3][1]=matrix[3][5]=matrix[3][9]=matrix[3][16]=matrix[4][1]=matrix[4][8]=matrix[4][10]=matrix[4][18]
     =matrix[5][11]=matrix[5][14]=matrix[5][17]=matrix[6][1]=matrix[6][7]=matrix[7][2]=matrix[7][3]=matrix[7][5]
     =matrix[7][9]=matrix[7][15]=matrix[7][16]=matrix[8][6]=matrix[8][18]=matrix[7][16]=matrix[9][4]=matrix[9][8]
@@ -33,6 +34,28 @@ void BEasyMap::buildWallsMap(){  //CONTRUYE MUROS DESTRUCTIBLES
     =matrix[13][2]=matrix[13][4]=matrix[13][5]=matrix[13][15]=matrix[13][17]=matrix[14][4]=matrix[15][7]
     =matrix[15][13]=matrix[15][7]=matrix[15][16]=matrix[15][18]=matrix[16][5]=matrix[16][8]=matrix[17][17]
     =matrix[18][1]=matrix[18][4]=matrix[18][7]=matrix[18][14]=matrix[20][10]=matrix[20][16]='*';
-*/
+
 }
 
+void BEasyMap::putDemons(){
+    BDemon demon1(3,19);
+    BDemon demon2(6,12);
+    BDemon demon3(10,16);
+    BDemon demon4(10,3);
+    BDemon demon5(15,4);
+    BDemon demon6(16,9);
+
+
+    listDemon.push_back(demon1);
+    listDemon.push_back(demon2);
+    listDemon.push_back(demon3);
+    listDemon.push_back(demon4);
+    listDemon.push_back(demon5);
+    listDemon.push_back(demon6);
+
+    matrix[3][19]=matrix[6][12]=matrix[10][16]=matrix[10][3]=matrix[15][4]=matrix[16][9]='x';
+
+
+
+
+}

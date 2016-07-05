@@ -15,7 +15,7 @@ class BPerson
         int getY(){return positionY;}
 
         int changePosition(int,vector <vector <char> >);
-        int checkMovement(int,int,vector< vector<char> >);
+         virtual int checkMovement(int,int,vector< vector<char> >)=0;
 
     protected:
         int positionX;
