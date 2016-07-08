@@ -56,14 +56,11 @@ int BPerson::changePosition(int direction,vector< vector<char> >matrix){
     }
     return 0;
 }
-/*
-int BPerson::checkMovement(int positionX,int positionY,vector< vector<char> >matrix)
-{
-    if(matrix[positionX][positionY]==' ') //PUEDE AVANZAR
-        return 1;
 
-    else if(matrix[positionX][positionY]=='#') // HAY UN ENEMIGO
-        return 0;
+void BPerson::setX(int positionX){
+    this->positionX=positionX;
+}
 
-    return 2;  //SI HAY CUALQUIER OTRA COSA COMO LOS MUROS
-}*/
+void BPerson::setY(int positionY){
+    this->positionY=positionY;
+}

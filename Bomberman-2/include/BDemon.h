@@ -3,7 +3,7 @@
 
 #include "BPerson.h"
 
-class BDemon:BPerson
+class BDemon:public BPerson
 {
     public:
         BDemon(int,int);

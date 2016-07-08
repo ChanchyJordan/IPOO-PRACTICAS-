@@ -17,10 +17,13 @@ class BMap
         int initMap();
         void buildMapEdge();  //CONTRUYE LOS BORDES
         virtual void printMap();  //IMPRIMIR
+        unsigned getTamList(){return listDemon.size();}
 
         virtual void buildMap()=0;  //CONSTRUYE MUROS INDESTRUCTIBLES
         virtual void buildWallsMap()=0;  //CONTRUYE MUROS DESTRUCTIBLES
         virtual void putDemons()=0;
+        void eliminateDemon(int,int);
+
 
         friend class BGame;
 

@@ -4,6 +4,8 @@
 #include <conio.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <cstdlib>
+#include <ctime>
 
 #include "BMap.h"
 #include "BMan.h"
@@ -21,16 +23,17 @@ class BGame
     public:
         BGame();
 
-        void initGame();
-        void welcome();
-        void gameOver();
+        bool initGame();
+        //void welcome();
+        void gameOver(int*);
+        void win();
 
     private:
         BMan bomberman;
         BBomb bomb;
-
+        BMenu menu;
+        int generateNum();
         int getKeyboard();
-
 
 
 };

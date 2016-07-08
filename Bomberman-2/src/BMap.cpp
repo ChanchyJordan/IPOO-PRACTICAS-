@@ -35,3 +35,11 @@ void BMap::printMap(){
         cout<<endl;
     }
 }
+
+void BMap::eliminateDemon(int positionX, int positionY){
+    for(unsigned i=0; i<listDemon.size();i++){
+        if (listDemon[i].getX()==positionX and listDemon[i].getY()==positionY)
+            listDemon.erase(listDemon.begin()+i);
+    }
+
+}

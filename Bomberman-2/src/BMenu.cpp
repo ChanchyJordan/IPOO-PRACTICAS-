@@ -2,11 +2,12 @@
 
 BMenu::BMenu()
 {
-    Start();
+    //selectMap();
+    //Start();
 }
 
 
-void BMenu::Start(){
+void BMenu::start(){
     short int color=0;
     while (color<7){
         if (color==0){
@@ -57,6 +58,7 @@ void BMenu::Start(){
             printExploit1();
             printExploit2();
             printExploit3();
+            selectMap();
         }
 
     }
@@ -202,3 +204,41 @@ void BMenu::printExploit3(){
     Sleep(300);
 }
 
+void BMenu::selectMap(){
+    system("cls");
+    system("color 48");
+    cout<<endl<<endl<<endl<<endl<<endl
+    <<"                     _______________________________________      "<<endl
+    <<"                   ||                                       ||    "<<endl
+    <<"                   ||                                       ||    "<<endl
+    <<"                   ||           SELECCIONA EL NIVEL         ||    "<<endl
+    <<"                   ||                                       ||    "<<endl
+    <<"                   ||                                       ||    "<<endl
+    <<"                   ||               1.  FACIL               ||    "<<endl
+    <<"                   ||                                       ||    "<<endl
+    <<"                   ||               2.  NORMAL              ||    "<<endl
+    <<"                   ||                                       ||    "<<endl
+    <<"                   ||               3.  DIFICIL             ||    "<<endl
+    <<"                   ||                                       ||    "<<endl
+    <<"                   ||                                       ||    "<<endl
+    <<"                   ||_______________________________________||    "<<endl;
+
+
+    cin>>numMap;
+
+}
+
+void BMenu::secondMenu(){
+    int tmp=0;
+    system("cls");
+    while(tmp<4){
+        printBomb1();
+        printBomb2();
+        tmp++;
+    }
+    printExploit1();
+    printExploit2();
+    printExploit3();
+    selectMap();
+
+}
